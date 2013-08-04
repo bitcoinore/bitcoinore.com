@@ -97,6 +97,7 @@ else $pageTitle = outputPageTitle(). " ". $pageTitle;
 	<td>btc/usd: $<?php print $settings->getsetting('mtgoxlast'); ?></td>
 	<td>Pool Speed: <?php print round($settings->getsetting('currenthashrate')/1000, 2); ?> GH/s</td>
 	<td>Pool Workers: <?php print $settings->getsetting('currentworkers'); ?></td>
+	<td>Site Source Code: <a href="https://github.com/bitcoinore/bitcoinore.com">bitcoinOre.com</a></td>
 <? /*
 	<td><li><a href="/osList">DTD+WTD</a>: &#3647;<?php print round(($settings->getsetting('donatedtodate') + $settings->getsetting('tobedonated')), 4); ?> <font size="1"><!--BTC--></font></li></td>
 	</tr> */?>
