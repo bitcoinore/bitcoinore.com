@@ -4,7 +4,7 @@
 
 //if ($_SERVER["REMOTE_ADDR"] == "1.1.1.1") { die("access blocked because you are requesting this data too often.  Please request this data only once per minute and contact annihilat@papa.mainframe.nl when you have fixed it. ."); }
 
-$includeDirectory = "/sites/mmc/www/includes/";
+$includeDirectory = "/includes/";
 
 include($includeDirectory."requiredFunctions.php");
 
