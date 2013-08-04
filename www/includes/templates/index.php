@@ -44,7 +44,7 @@
 
 		<div class="sidebar_content" id="sb1">
 	<!-- START User Stats Block -->
-<? 
+<?php 
 	include("includes/userStatsAuth.inc.php");
 
 
@@ -72,7 +72,7 @@
                   <div class="bheadl"></div>
                   <div class="bheadr"></div>
                   <h2>BitcoinOre.com Stats</h2>
-<? /*			<ul class="tabs">
+<?php /*			<ul class="tabs">
 				<li><a href="?graph=mine">Mine &nbsp;</a></li>
 				<li><a href="?graph=pool">Pool &nbsp;</a></li>
 				<li><a href="?graph=both">Both</a></li>
